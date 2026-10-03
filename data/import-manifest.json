@@ -1,0 +1,986 @@
+[
+  {
+    "source": "制作物一覧/META広告バナー/20251106META.png",
+    "asset": "assets/works/meta-001.png",
+    "category": "meta",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "ad1f69492757bfc318e4426b73c1ffc3c4fa458d0a11b320089faff1ddae584c"
+  },
+  {
+    "source": "制作物一覧/META広告バナー/20260503-meta2.png",
+    "asset": "assets/works/meta-002.png",
+    "category": "meta",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "ba4a78f6dffc4fbf536e3cf863e164e3fd0887ad49a492de5a67b24c48de080f"
+  },
+  {
+    "source": "制作物一覧/META広告バナー/20260512-1.jpg",
+    "asset": "assets/works/meta-003.jpg",
+    "category": "meta",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "e76066ea38307be1092c788d44a2653e98a7e821f568adaa4dc0fb0c59933dcd"
+  },
+  {
+    "source": "制作物一覧/META広告バナー/20260512.jpg",
+    "asset": "assets/works/meta-004.jpg",
+    "category": "meta",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "c8faea673102fdd976f141ea97ad93d1938a2a331808da7c9f21fd1211bf0573"
+  },
+  {
+    "source": "制作物一覧/META広告バナー/20260814-1.jpg",
+    "asset": "assets/works/meta-005.jpg",
+    "category": "meta",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "355b757687c141cd34dcfc8a30172339f9b3edced204317289192451b690df98"
+  },
+  {
+    "source": "制作物一覧/META広告バナー/20260814-3.jpg",
+    "asset": "assets/works/meta-006.jpg",
+    "category": "meta",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "ffdf51cea09cd342a4877805cefc9d4d5202b2da31903e79745fd3aa7c912e4b"
+  },
+  {
+    "source": "制作物一覧/META広告バナー/ChatGPT Image 2026年5月15日 16_45_39.png",
+    "asset": "assets/works/meta-007.png",
+    "category": "meta",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "f8284e9e6bd7bf1111bbdc864239656d5c09698bae800a51503161f3a14cc03b"
+  },
+  {
+    "source": "制作物一覧/META広告バナー/ChatGPT Image 2026年8月16日 16_31_16.png",
+    "asset": "assets/works/meta-008.png",
+    "category": "meta",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "d67dcebfcc1f87c97f0536824dd87d7710df198002d2601724c14ce294489b4f"
+  },
+  {
+    "source": "制作物一覧/META広告バナー/geaghawha.jpg",
+    "asset": "assets/works/meta-009.jpg",
+    "category": "meta",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "cc51880c4e4e8a00bce75aaf46682f38207d89926464a34241c08a0faf7e1cc7"
+  },
+  {
+    "source": "制作物一覧/META広告バナー/lev0304.jpg",
+    "asset": "assets/works/meta-010.jpg",
+    "category": "meta",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "33181fb4a335cfa6277e72a0882e9a3ce9065c8d964fa7f6f08a2d5cab25d2c2"
+  },
+  {
+    "source": "制作物一覧/META広告バナー/levmeta1217.png",
+    "asset": "assets/works/meta-011.png",
+    "category": "meta",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "ad848cbe374712ae03cf2b620b82edf24f9f8dfb8fc75ab781ca2adcf3b1fca0"
+  },
+  {
+    "source": "制作物一覧/META広告バナー/meta0109.png",
+    "asset": "assets/works/meta-012.png",
+    "category": "meta",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "5747f26622df89576afb2c2c4974266e60841234e062111b9e3a2c20d0c2618a"
+  },
+  {
+    "source": "制作物一覧/META広告バナー/META03.jpg",
+    "asset": "assets/works/meta-013.jpg",
+    "category": "meta",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "db38042c527c2bdca0de7e45f37573ffbffaa2154257aa723a19e308c9ec0d38"
+  },
+  {
+    "source": "制作物一覧/META広告バナー/META0304.jpg",
+    "asset": "assets/works/meta-014.jpg",
+    "category": "meta",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "1b7ad1523471f00caf448711d5e505198a19df205721471f50b74f6b9ec95cc9"
+  },
+  {
+    "source": "制作物一覧/META広告バナー/META04.png",
+    "asset": "assets/works/meta-015.png",
+    "category": "meta",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "15bb01f7fec06b246acfe0bdcffea358754dca15814a39faea799f860010cf1d"
+  },
+  {
+    "source": "制作物一覧/META広告バナー/META06.png",
+    "asset": "assets/works/meta-016.png",
+    "category": "meta",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "a0b8a8f63af2bde1ce0c069d70dec72b4bcfde757cafac8eefcc988170f9ab80"
+  },
+  {
+    "source": "制作物一覧/META広告バナー/meta1204sta02.png",
+    "asset": "assets/works/meta-017.png",
+    "category": "meta",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "44863b4be0e2524161dd54200b906b52010603c0d59735c69d625d9f066623e8"
+  },
+  {
+    "source": "制作物一覧/META広告バナー/meta1210-1.png",
+    "asset": "assets/works/meta-018.png",
+    "category": "meta",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "bf72c4a5239918dd7368fcd274d20d575e9dc957f9fd175cf577fdd0cf5148c3"
+  },
+  {
+    "source": "制作物一覧/META広告バナー/meta1219.png",
+    "asset": "assets/works/meta-019.png",
+    "category": "meta",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "ca7ec5862f8c62ac6a084b55efb5e8dcf5374afe88245c85d980dfe610a50a1f"
+  },
+  {
+    "source": "制作物一覧/META広告バナー/metast1222.png",
+    "asset": "assets/works/meta-020.png",
+    "category": "meta",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "c10dd7b9d6817ad574e030f5bd685676c500de3f6d93d5945418641d9523c7c8"
+  },
+  {
+    "source": "制作物一覧/META広告バナー/表示/0108stmeta.png",
+    "asset": "assets/works/meta-021.png",
+    "category": "meta",
+    "sensitive": false,
+    "type": "image",
+    "sha256": "7b0ec3e86f4914d94307007fe4b35be15c2bf13d302384ce7a7cfd170f2d810f"
+  },
+  {
+    "source": "制作物一覧/META広告バナー/表示/20260503meta.png",
+    "asset": "assets/works/meta-022.png",
+    "category": "meta",
+    "sensitive": false,
+    "type": "image",
+    "sha256": "fa967e1932a8f15d421e4ee1074beaab874b74042ec7ed0e626c3bbdfd6e33fb"
+  },
+  {
+    "source": "制作物一覧/META広告バナー/表示/ChatGPT Image 2026年8月16日 16_27_48.png",
+    "asset": "assets/works/meta-023.png",
+    "category": "meta",
+    "sensitive": false,
+    "type": "image",
+    "sha256": "bee4d870041169d5d2505e9fc06df1f823bbea6a2e9bb79e762596c39b809881"
+  },
+  {
+    "source": "制作物一覧/META広告バナー/表示/haegahaeh.jpg",
+    "asset": "assets/works/meta-024.jpg",
+    "category": "meta",
+    "sensitive": false,
+    "type": "image",
+    "sha256": "04c19304c9e44f14c8ef998b2ace0e94e22f9cc283aa39c21212ef4e78d9a523"
+  },
+  {
+    "source": "制作物一覧/META広告バナー/表示/meta0513.png",
+    "asset": "assets/works/meta-025.png",
+    "category": "meta",
+    "sensitive": false,
+    "type": "image",
+    "sha256": "b6dcbbd1785397b69522d095cf077d4d5d25f6bf4cd56af26d985f2d93eaba68"
+  },
+  {
+    "source": "制作物一覧/META広告バナー/表示/meta1204sta03.png",
+    "asset": "assets/works/meta-026.png",
+    "category": "meta",
+    "sensitive": false,
+    "type": "image",
+    "sha256": "e6bc00bbc96087078155617db08dad33a8f4a496e51a86e113e456a04e181464"
+  },
+  {
+    "source": "制作物一覧/META広告バナー/表示/metalev1217-1.png",
+    "asset": "assets/works/meta-027.png",
+    "category": "meta",
+    "sensitive": false,
+    "type": "image",
+    "sha256": "9051e16879f180d2d799c0f016ec2dd4c3a3da12c9e6fa69c84b143e6184041c"
+  },
+  {
+    "source": "制作物一覧/シティヘブン用バナー/121901002-1.gif",
+    "asset": "assets/works/heaven-001.gif",
+    "category": "heaven",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "e1b57f953a5b8c2661f6f4ca7fe782d1d5761541345b1d656e036728297c22b8"
+  },
+  {
+    "source": "制作物一覧/シティヘブン用バナー/20250616-5.gif",
+    "asset": "assets/works/heaven-002.gif",
+    "category": "heaven",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "3cf968a3a7c591e5d337953a080c793cfacd8bb345b39219fb9dea9fd864fc50"
+  },
+  {
+    "source": "制作物一覧/シティヘブン用バナー/20250623-5-1.gif",
+    "asset": "assets/works/heaven-003.gif",
+    "category": "heaven",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "53661079212876685c4c1ee4a91d824dd5a7e871ca78e044770b4c375541a47c"
+  },
+  {
+    "source": "制作物一覧/シティヘブン用バナー/20250623-7.gif",
+    "asset": "assets/works/heaven-004.gif",
+    "category": "heaven",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "dbf8a48e31dc45047ff48ce4d07a9da53f4b6a226ec85da502a58193a9b114a4"
+  },
+  {
+    "source": "制作物一覧/シティヘブン用バナー/20250903.gif",
+    "asset": "assets/works/heaven-005.gif",
+    "category": "heaven",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "a53d778f2cd8256f533de1e8d932d1e53d3ea3033ee26d7443aec64fd312908c"
+  },
+  {
+    "source": "制作物一覧/シティヘブン用バナー/20250905.gif",
+    "asset": "assets/works/heaven-006.gif",
+    "category": "heaven",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "3b412747f70993d645908be408e14d1c96765fea3987495956bcf6e11a75c20e"
+  },
+  {
+    "source": "制作物一覧/シティヘブン用バナー/20250919.gif",
+    "asset": "assets/works/heaven-007.gif",
+    "category": "heaven",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "c8bc2c25955cc7850d3725ff32969c58936cd136fe95e88145feba9d8857d8ca"
+  },
+  {
+    "source": "制作物一覧/シティヘブン用バナー/20250922.gif",
+    "asset": "assets/works/heaven-008.gif",
+    "category": "heaven",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "e82d26c9cdbb0ee3da3f7677af14fe159901269ed5f832ec97fece8f3f796c09"
+  },
+  {
+    "source": "制作物一覧/シティヘブン用バナー/20250924.gif",
+    "asset": "assets/works/heaven-009.gif",
+    "category": "heaven",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "39b2b7be241f73dcee19b745cb93f1246c18c41396e7679f2a51b64555400d5f"
+  },
+  {
+    "source": "制作物一覧/シティヘブン用バナー/20250924s.gif",
+    "asset": "assets/works/heaven-010.gif",
+    "category": "heaven",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "4775fff97ce4cf2332f2e283066a01adcba92cddc17866ec4691e6dd75e4062e"
+  },
+  {
+    "source": "制作物一覧/シティヘブン用バナー/20250925s2.gif",
+    "asset": "assets/works/heaven-011.gif",
+    "category": "heaven",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "8733929a53340a1de72a01ee7341c168bab9a89022ac62d9e58b4e14c5afbb96"
+  },
+  {
+    "source": "制作物一覧/シティヘブン用バナー/20250929s.gif",
+    "asset": "assets/works/heaven-012.gif",
+    "category": "heaven",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "036d5b626ea2311595ab59683e3c2c5d444c0f11b9da70322c2ee9c1dd7c9df5"
+  },
+  {
+    "source": "制作物一覧/シティヘブン用バナー/20251003st.gif",
+    "asset": "assets/works/heaven-013.gif",
+    "category": "heaven",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "b4630e4ac064779bafe29a49dcbab2ebcfcf1217999c1411ee69ccdd625d0a29"
+  },
+  {
+    "source": "制作物一覧/シティヘブン用バナー/20251007.gif",
+    "asset": "assets/works/heaven-014.gif",
+    "category": "heaven",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "af59fb217f8032a106b235834b6e877445ba4574e490054023f20624b440768d"
+  },
+  {
+    "source": "制作物一覧/シティヘブン用バナー/20251020-1.gif",
+    "asset": "assets/works/heaven-015.gif",
+    "category": "heaven",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "98e50fc8e4b468762291f68e8e960c003ce1bbfbb5129a9190ff03c4a7fdd494"
+  },
+  {
+    "source": "制作物一覧/シティヘブン用バナー/20251027-2.gif",
+    "asset": "assets/works/heaven-016.gif",
+    "category": "heaven",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "ee8ed36e4b98056a0aa779e4cbd2c969eb8e9c69872fe37611343214cee7ef93"
+  },
+  {
+    "source": "制作物一覧/シティヘブン用バナー/20251027.gif",
+    "asset": "assets/works/heaven-017.gif",
+    "category": "heaven",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "188df8b97a0be4abaf8e3db09d652883b66974f4b82b04a849f886bcdccbb8b0"
+  },
+  {
+    "source": "制作物一覧/シティヘブン用バナー/20251031-1.gif",
+    "asset": "assets/works/heaven-018.gif",
+    "category": "heaven",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "7d74df8a9430cf1c93e50bf0cf1cfa8e411758f7df383d49ef118546490cf3df"
+  },
+  {
+    "source": "制作物一覧/シティヘブン用バナー/20251105-1.gif",
+    "asset": "assets/works/heaven-019.gif",
+    "category": "heaven",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "ecd656749ffcbe9c929ff6bdb105986147d48912b4d041c64cd112de94f4469b"
+  },
+  {
+    "source": "制作物一覧/シティヘブン用バナー/20251121.gif",
+    "asset": "assets/works/heaven-020.gif",
+    "category": "heaven",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "85536433a0137b8a872f5eafe5ec529b6f2ca42480079272d8a520e00e52cf97"
+  },
+  {
+    "source": "制作物一覧/シティヘブン用バナー/20251126-1.gif",
+    "asset": "assets/works/heaven-021.gif",
+    "category": "heaven",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "3eae9e3fafd0d995ff8545ec9dc6227912e9ede6dda54ac8ab23be91304d38fa"
+  },
+  {
+    "source": "制作物一覧/シティヘブン用バナー/20251127-4.gif",
+    "asset": "assets/works/heaven-022.gif",
+    "category": "heaven",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "32767a651956379f1af0e80f154101c1e195fe65bd89ccb24fd5205cdcb8c593"
+  },
+  {
+    "source": "制作物一覧/シティヘブン用バナー/20251202mf-3.gif",
+    "asset": "assets/works/heaven-023.gif",
+    "category": "heaven",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "d880baabba0977eb97ea53e56bfd0f52578ffd6efe103ef45115538977da231a"
+  },
+  {
+    "source": "制作物一覧/シティヘブン用バナー/2026010801.gif",
+    "asset": "assets/works/heaven-024.gif",
+    "category": "heaven",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "50df592d3444fc544cb52e37c7b621af16c3d56bfbb9d8cb9357b94fa48d5db0"
+  },
+  {
+    "source": "制作物一覧/シティヘブン用バナー/20260124sta.gif",
+    "asset": "assets/works/heaven-025.gif",
+    "category": "heaven",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "9d2b431cbe7de9f4c69f8f4a48538223f51125404f907f7fb085e10a6a9a504b"
+  },
+  {
+    "source": "制作物一覧/シティヘブン用バナー/20260304-2.gif",
+    "asset": "assets/works/heaven-026.gif",
+    "category": "heaven",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "289573f8049c36b1095afeb63e32f0d6eee5b8f00950204e48736916013461be"
+  },
+  {
+    "source": "制作物一覧/シティヘブン用バナー/20260312-2.gif",
+    "asset": "assets/works/heaven-027.gif",
+    "category": "heaven",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "03d4c3858b4234e6cd71d1d610fd6400af1c39b604016ac95281fdefb2413afc"
+  },
+  {
+    "source": "制作物一覧/シティヘブン用バナー/202603122-1.gif",
+    "asset": "assets/works/heaven-028.gif",
+    "category": "heaven",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "a5ad4e0f7536415bd74574f230e1adc0afa119c6c9a76d772c3648e9eb2906c8"
+  },
+  {
+    "source": "制作物一覧/シティヘブン用バナー/202603192202.gif",
+    "asset": "assets/works/heaven-029.gif",
+    "category": "heaven",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "5825924dc978de915b9b333497ebaf3873ca2b2abfd61a1ac2886921682ae824"
+  },
+  {
+    "source": "制作物一覧/シティヘブン用バナー/20260410.gif",
+    "asset": "assets/works/heaven-030.gif",
+    "category": "heaven",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "6753d63387c24a196e865309cbe5c6a143e107f08c724d43519b5ebddf629d98"
+  },
+  {
+    "source": "制作物一覧/シティヘブン用バナー/20260411-1.gif",
+    "asset": "assets/works/heaven-031.gif",
+    "category": "heaven",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "5e37d74e26848bc49f011544988a9418872092598f63614837c71de0c936bc61"
+  },
+  {
+    "source": "制作物一覧/シティヘブン用バナー/20260411.psd",
+    "asset": "assets/works/heaven-032.png",
+    "category": "heaven",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "b1d28ca3463fc5ca73f23d50941affbf69dd784cdc30175011a36ccd56fbb0bf"
+  },
+  {
+    "source": "制作物一覧/シティヘブン用バナー/20260420-1.gif",
+    "asset": "assets/works/heaven-033.gif",
+    "category": "heaven",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "1169bcda453362255d2606f676b741dd8c4039908c486a6f0a4195ed5056924e"
+  },
+  {
+    "source": "制作物一覧/シティヘブン用バナー/20260420-2.gif",
+    "asset": "assets/works/heaven-034.gif",
+    "category": "heaven",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "0f5cea8f76543633cc37833a8d0c74b2617b29615d6f189b82374449392b82b7"
+  },
+  {
+    "source": "制作物一覧/シティヘブン用バナー/20260420-4.gif",
+    "asset": "assets/works/heaven-035.gif",
+    "category": "heaven",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "f2b69804a61c026deb532facf8e261691cbdbf86ec06d77c8464a66779364051"
+  },
+  {
+    "source": "制作物一覧/シティヘブン用バナー/20260420.gif",
+    "asset": "assets/works/heaven-036.gif",
+    "category": "heaven",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "2e61605e1137339eb18b28cf553560a1e09b13cac36e09295c971415b401c28f"
+  },
+  {
+    "source": "制作物一覧/シティヘブン用バナー/20260421.gif",
+    "asset": "assets/works/heaven-037.gif",
+    "category": "heaven",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "856bd72660a8b350b71e7b676e44d3e063807d41f7707db7399146381e31b35b"
+  },
+  {
+    "source": "制作物一覧/シティヘブン用バナー/20260423.gif",
+    "asset": "assets/works/heaven-038.gif",
+    "category": "heaven",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "f089f781162ad704fb8fb8b8989af82a6946c67884b5be35464fb155baa4c7e0"
+  },
+  {
+    "source": "制作物一覧/シティヘブン用バナー/20260429-1.gif",
+    "asset": "assets/works/heaven-039.gif",
+    "category": "heaven",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "617407e641fd849a05e2f614ab3dcbd35c7ad3e53fac8ce43f315355f05af01d"
+  },
+  {
+    "source": "制作物一覧/シティヘブン用バナー/20260429-2.gif",
+    "asset": "assets/works/heaven-040.gif",
+    "category": "heaven",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "7027ff825bd486705a3a07e2952c1959c5f146b74e7a4a2db50bd95b5e0d28e2"
+  },
+  {
+    "source": "制作物一覧/シティヘブン用バナー/20260429-6.gif",
+    "asset": "assets/works/heaven-041.gif",
+    "category": "heaven",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "3a9cd937a98e59fd8a09fea4e539ec0c0f1d4a0861dd0b56d7eb44f046934720"
+  },
+  {
+    "source": "制作物一覧/シティヘブン用バナー/20260430.gif",
+    "asset": "assets/works/heaven-042.gif",
+    "category": "heaven",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "57fc3233b59f9466ef5ea105323b2b4d824decde0fa5a8e7207c2518a8dc5e81"
+  },
+  {
+    "source": "制作物一覧/シティヘブン用バナー/20260503-1.gif",
+    "asset": "assets/works/heaven-043.gif",
+    "category": "heaven",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "152fd3936581db50bf680f80b84d58a92369b27cee130b244b64ff9d1e5e01f6"
+  },
+  {
+    "source": "制作物一覧/シティヘブン用バナー/20260515.gif",
+    "asset": "assets/works/heaven-044.gif",
+    "category": "heaven",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "33debe52da4970440b6508a995172f415dab868484eb61e514775c38a18d7acf"
+  },
+  {
+    "source": "制作物一覧/シティヘブン用バナー/20260525.gif",
+    "asset": "assets/works/heaven-045.gif",
+    "category": "heaven",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "0eecc74aa76b5a1953a55500b440d2d408db322a18991e70f3a35b8f8043992c"
+  },
+  {
+    "source": "制作物一覧/シティヘブン用バナー/20260525k3.gif",
+    "asset": "assets/works/heaven-046.gif",
+    "category": "heaven",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "d9dd9a7fb6ac4e181aee040b9ac3a94180c0895c9d8438a5883ee864041a78d2"
+  },
+  {
+    "source": "制作物一覧/シティヘブン用バナー/20260613-1.gif",
+    "asset": "assets/works/heaven-047.gif",
+    "category": "heaven",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "e69545ede6e59890dabd42bc74b5e95b359538fbb22d50789442500330de8987"
+  },
+  {
+    "source": "制作物一覧/シティヘブン用バナー/20260616-1.gif",
+    "asset": "assets/works/heaven-048.gif",
+    "category": "heaven",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "3027aa7931b7e4116fedfa19cd6073012e6f796580fff77ac88892c79908afc6"
+  },
+  {
+    "source": "制作物一覧/シティヘブン用バナー/20260713.gif",
+    "asset": "assets/works/heaven-049.gif",
+    "category": "heaven",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "37f4f11a14699bcdbaae7a35a4209fccd42f554185e61c4e0a249eb1c0ae8ad6"
+  },
+  {
+    "source": "制作物一覧/シティヘブン用バナー/20260714.gif",
+    "asset": "assets/works/heaven-050.gif",
+    "category": "heaven",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "8b66a19d772046a51dd8f3ccfa4e3ee3597f065e5642ceef462db70df0c89c08"
+  },
+  {
+    "source": "制作物一覧/シティヘブン用バナー/20260731.gif",
+    "asset": "assets/works/heaven-051.gif",
+    "category": "heaven",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "430ca976b54ce6ed5920e9836af05cf954ece3f4e6f55b95439dc84253a4111e"
+  },
+  {
+    "source": "制作物一覧/シティヘブン用バナー/20260803.gif",
+    "asset": "assets/works/heaven-052.gif",
+    "category": "heaven",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "cd6db72fbd7aa959486143fe73533c80f4b57c81440b2a4399e09cd442496ed1"
+  },
+  {
+    "source": "制作物一覧/シティヘブン用バナー/20260807.gif",
+    "asset": "assets/works/heaven-053.gif",
+    "category": "heaven",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "5e897314be98586e337ae608af4858e19881f25fee47a79eab890d9051b66e83"
+  },
+  {
+    "source": "制作物一覧/シティヘブン用バナー/20260813-1.gif",
+    "asset": "assets/works/heaven-054.gif",
+    "category": "heaven",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "680d5f701c6d236c19ea32845e599fe3cbd5b86595fce5d51191d8824610a23f"
+  },
+  {
+    "source": "制作物一覧/シティヘブン用バナー/20260813-2.gif",
+    "asset": "assets/works/heaven-055.gif",
+    "category": "heaven",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "4b4efca0fc273ec683c25277ea6aabb4b8a92b6ea9f5acc95190d8098977feb7"
+  },
+  {
+    "source": "制作物一覧/シティヘブン用バナー/20260813.gif",
+    "asset": "assets/works/heaven-056.gif",
+    "category": "heaven",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "82546a830245d62954fadef43692af399de01eeadfc49a981727a14313d1b691"
+  },
+  {
+    "source": "制作物一覧/シティヘブン用バナー/20260814mltp.gif",
+    "asset": "assets/works/heaven-057.gif",
+    "category": "heaven",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "4d52bbf6dc3cc6fd04b5fed408942931c6bdc15f48e929d1b626a74f55b98b66"
+  },
+  {
+    "source": "制作物一覧/シティヘブン用バナー/20260817.gif",
+    "asset": "assets/works/heaven-058.gif",
+    "category": "heaven",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "56c1b834dbf13f46f5604de1301f134cf865ce6fea54c12185377d50e60a6f95"
+  },
+  {
+    "source": "制作物一覧/シティヘブン用バナー/202608177.gif",
+    "asset": "assets/works/heaven-059.gif",
+    "category": "heaven",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "65f4c3597b1c299f2462df062b417b3c31880ae4dbb687341326d5f49e3bb047"
+  },
+  {
+    "source": "制作物一覧/シティヘブン用バナー/20260819.gif",
+    "asset": "assets/works/heaven-060.gif",
+    "category": "heaven",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "f736a52bb98447fc6af58d0db88b90dc47bdb6fbfa16c1be580b140e8f5b534e"
+  },
+  {
+    "source": "制作物一覧/シティヘブン用バナー/20260820-1.gif",
+    "asset": "assets/works/heaven-061.gif",
+    "category": "heaven",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "40ad9274e684c3fdb74d46f4db706731e94e5e4f49cc540d60695a54f38a32af"
+  },
+  {
+    "source": "制作物一覧/シティヘブン用バナー/20260925-1.gif",
+    "asset": "assets/works/heaven-062.gif",
+    "category": "heaven",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "62f052c9b26b2052da6466e1ab4ee2ffe1685f47ed31e3d2a0e7f223bbb19d1c"
+  },
+  {
+    "source": "制作物一覧/シティヘブン用バナー/mfa1219-1.gif",
+    "asset": "assets/works/heaven-063.gif",
+    "category": "heaven",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "20f0676508db9e52e5dd33a2120cd4fff5cb6975a3be73a35dd51b3e84c1427c"
+  },
+  {
+    "source": "制作物一覧/シティヘブン用バナー/mfa20260627-1.gif",
+    "asset": "assets/works/heaven-064.gif",
+    "category": "heaven",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "1476faf6086301a4afee31b195e19f75fe76f0e9c5a341bd19830f174d34c499"
+  },
+  {
+    "source": "制作物一覧/シティヘブン用バナー/北海道0306.gif",
+    "asset": "assets/works/heaven-065.gif",
+    "category": "heaven",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "aadccc9ed4b717bd35f590a763e0c0ba4dd6485705c134165bbe1794d2b7d435"
+  },
+  {
+    "source": "制作物一覧/シティヘブン用バナー/北海道0715.gif",
+    "asset": "assets/works/heaven-066.gif",
+    "category": "heaven",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "472a4e381d98b0f1a3a82d54c97b4afcb5ae305bdf11d9e7b42c11b12e2e99d2"
+  },
+  {
+    "source": "制作物一覧/シティヘブン用バナー/表示/20250925s2.gif",
+    "asset": "assets/works/heaven-067.gif",
+    "category": "heaven",
+    "sensitive": false,
+    "type": "image",
+    "sha256": "8733929a53340a1de72a01ee7341c168bab9a89022ac62d9e58b4e14c5afbb96"
+  },
+  {
+    "source": "制作物一覧/シティヘブン用バナー/表示/20260918-1.gif",
+    "asset": "assets/works/heaven-068.gif",
+    "category": "heaven",
+    "sensitive": false,
+    "type": "image",
+    "sha256": "df0fd12343214393d0142041ee6e8881db4cdf5a0e1cc0c25d96d48b8fe67ef1"
+  },
+  {
+    "source": "制作物一覧/シティヘブン用バナー/表示/mfa0515.gif",
+    "asset": "assets/works/heaven-069.gif",
+    "category": "heaven",
+    "sensitive": false,
+    "type": "image",
+    "sha256": "390ab7b625ac9f475ac6976a8ebec71484532b1b9fdbac961bbaa8d85731bfcf"
+  },
+  {
+    "source": "制作物一覧/シティヘブン用バナー/表示/mfa20260627.gif",
+    "asset": "assets/works/heaven-070.gif",
+    "category": "heaven",
+    "sensitive": false,
+    "type": "image",
+    "sha256": "5c472fcfe0bc165aceb85e56229db8b7044a3f5137eb449b253cb707d3ca7448"
+  },
+  {
+    "source": "制作物一覧/パッケージデザイン/starion0109-2.png",
+    "asset": "assets/works/package-001.png",
+    "category": "package",
+    "sensitive": false,
+    "type": "image",
+    "sha256": "451454c2e4d8d6f26749345870dc76931e460aaa7fabf4a58ae6a27a87bf16de"
+  },
+  {
+    "source": "制作物一覧/パッケージデザイン/starion0109-3.png",
+    "asset": "assets/works/package-002.png",
+    "category": "package",
+    "sensitive": false,
+    "type": "image",
+    "sha256": "7eb2e7b5c9cca4e9cab826c7f771249adc8170244e7e6fcd6a993b78eb77ed3e"
+  },
+  {
+    "source": "制作物一覧/パッケージデザイン/starion01090png.png",
+    "asset": "assets/works/package-003.png",
+    "category": "package",
+    "sensitive": false,
+    "type": "image",
+    "sha256": "0477c9db4bfdb8cfc45e878905a1fe2243fcc00e52fda26175bccb40c27dd06d"
+  },
+  {
+    "source": "制作物一覧/パッケージデザイン/スタリオン0106.png",
+    "asset": "assets/works/package-004.png",
+    "category": "package",
+    "sensitive": false,
+    "type": "image",
+    "sha256": "3ba43d03cdec162e2b210d50ac87d8f059c1e5632e4165fbcda6321189286175"
+  },
+  {
+    "source": "制作物一覧/パッケージデザイン/名称未設hreh定 2.png",
+    "asset": "assets/works/package-005.png",
+    "category": "package",
+    "sensitive": false,
+    "type": "image",
+    "sha256": "7aecfaabddecb82cf55399740a441216e45073d75ac3aadb205e4b7c18e2f754"
+  },
+  {
+    "source": "制作物一覧/パッケージデザイン/名称未設定 1.png",
+    "asset": "assets/works/package-006.png",
+    "category": "package",
+    "sensitive": false,
+    "type": "image",
+    "sha256": "4928e7d94c77e8e39496c6ad4fa13cf02b517ea6081e7cbfdc5ed042ddc5ce60"
+  },
+  {
+    "source": "制作物一覧/個人依頼用/328sky.png",
+    "asset": "assets/works/personal-001.png",
+    "category": "personal",
+    "sensitive": false,
+    "type": "image",
+    "sha256": "b58daece76bf76cf020a0a64ebc8703fb8430e62e612d983bab57b24d34e2ccc"
+  },
+  {
+    "source": "制作物一覧/個人依頼用/ark1800x600-02.png",
+    "asset": "assets/works/personal-002.png",
+    "category": "personal",
+    "sensitive": false,
+    "type": "image",
+    "sha256": "9b9a6fb9caae1578801f9accaee68c8e160728123e872bd5ad5c3334f910b840"
+  },
+  {
+    "source": "制作物一覧/個人依頼用/IMG_5037.JPG",
+    "asset": "assets/works/personal-003.jpg",
+    "category": "personal",
+    "sensitive": false,
+    "type": "image",
+    "sha256": "10e579626d040db08b8d78262b6eb2a4a34fb852eb3c5aded8cefae51ad02e06"
+  },
+  {
+    "source": "制作物一覧/個人依頼用/IMG_7286.PNG",
+    "asset": "assets/works/personal-004.png",
+    "category": "personal",
+    "sensitive": false,
+    "type": "image",
+    "sha256": "f2f2ca92ce92fc3673c5eecbb017b4d4b9ebe64e7bbd6bbf466bb099034a37da"
+  },
+  {
+    "source": "制作物一覧/個人依頼用/IMG_7329.JPG",
+    "asset": "assets/works/personal-005.jpg",
+    "category": "personal",
+    "sensitive": false,
+    "type": "image",
+    "sha256": "ae3b771332db25d2112c8e5c65c69e8f2ae81d93530989c1a7925c22c812318d"
+  },
+  {
+    "source": "制作物一覧/個人依頼用/sky0314+5.png",
+    "asset": "assets/works/personal-006.png",
+    "category": "personal",
+    "sensitive": false,
+    "type": "image",
+    "sha256": "2973157c5494fcd49ef91e29091106858f4e5dfedb55b2524415c0335d326dc8"
+  },
+  {
+    "source": "制作物一覧/個人依頼用/sky0314-2.png",
+    "asset": "assets/works/personal-007.png",
+    "category": "personal",
+    "sensitive": false,
+    "type": "image",
+    "sha256": "12132f914ee3a78c1a7b1128cba9ef77173d7f55836054298fbc2eee9011dfdf"
+  },
+  {
+    "source": "制作物一覧/個人依頼用/たこやき8メニュー.jpg",
+    "asset": "assets/works/personal-008.jpg",
+    "category": "personal",
+    "sensitive": false,
+    "type": "image",
+    "sha256": "69c0f26fbf3f3f77ed949e71184ac9e95bd5829322cecb9c924fbe6cf585bbab"
+  },
+  {
+    "source": "制作物一覧/公式line用/454646定 1.png",
+    "asset": "assets/works/line-001.png",
+    "category": "line",
+    "sensitive": true,
+    "type": "image",
+    "sha256": "9b9a0fd81d8ca677b5d9a36a935291e33f3f33444c4a0f007a611d5507f8e5d8"
+  },
+  {
+    "source": "制作物一覧/公式line用/表示/3_52.png",
+    "asset": "assets/works/line-002.png",
+    "category": "line",
+    "sensitive": false,
+    "type": "image",
+    "sha256": "9d1321b17214fed913f0d1b24be527e2e5c9871f03d79a9f8fd2c862b0d77e16"
+  },
+  {
+    "source": "制作物一覧/公式line用/表示/77lp03.jpg",
+    "asset": "assets/works/line-003.jpg",
+    "category": "line",
+    "sensitive": false,
+    "type": "image",
+    "sha256": "072c35d4ab07669fd24e27eb814ee2dbef1873bde1c7590f674804744fdef590"
+  },
+  {
+    "source": "制作物一覧/公式line用/表示/ChatGPT Image 2026年8月3日 17_25_00.png",
+    "asset": "assets/works/line-004.png",
+    "category": "line",
+    "sensitive": false,
+    "type": "image",
+    "sha256": "2f6694bd61f5521c5d21bcd68575bd841cb99be62505153ff8d8e2a8ace09c29"
+  },
+  {
+    "source": "制作物一覧/公式line用/表示/ChatGPT Image 2026年8月3日 18_31_40.png",
+    "asset": "assets/works/line-005.png",
+    "category": "line",
+    "sensitive": false,
+    "type": "image",
+    "sha256": "a9298a69850a5eb6b4bd4d011638b05f828670d18428ec383efbaaa8534cdff7"
+  },
+  {
+    "source": "制作物一覧/公式line用/表示/generated_video (68).mp4",
+    "asset": "assets/works/line-006.mp4",
+    "category": "line",
+    "sensitive": false,
+    "type": "video",
+    "sha256": "d8acc04d8d8bd939b73edb279f27ca3dea64f5dac2bf0d6b1668ec56f2304ca9"
+  },
+  {
+    "source": "制作物一覧/公式line用/表示/grok-video-18953132-676b-4eb0-9bd1-599a44559922.mp4",
+    "asset": "assets/works/line-007.mp4",
+    "category": "line",
+    "sensitive": false,
+    "type": "video",
+    "sha256": "9fe5266bfaca452ca429d00767e58893b6663dc75fd4a37e861de08dbafd2ec8"
+  },
+  {
+    "source": "制作物一覧/公式line用/表示/hannsinn2.png",
+    "asset": "assets/works/line-008.png",
+    "category": "line",
+    "sensitive": false,
+    "type": "image",
+    "sha256": "2e05baf550fecdb70dcd3428200279d69ccd06fe2da84cdb79f8da787fcb273d"
+  },
+  {
+    "source": "制作物一覧/公式line用/表示/MHL＿リッチメニュー_B2D1.png",
+    "asset": "assets/works/line-009.png",
+    "category": "line",
+    "sensitive": false,
+    "type": "image",
+    "sha256": "3c3d8b355094d0ea75ba39b61e689d7284f1307e1d0947c28d12a83ae493c048"
+  },
+  {
+    "source": "制作物一覧/公式line用/表示/RE GLANS香膏の静謐な商品写真.jpg",
+    "asset": "assets/works/line-010.jpg",
+    "category": "line",
+    "sensitive": false,
+    "type": "image",
+    "sha256": "8188d17298072fadd7aa1c9f93b262fa378d8553108467f27cdea0c394a52b5f"
+  },
+  {
+    "source": "制作物一覧/公式line用/表示/お中元リマインド21.jpg",
+    "asset": "assets/works/line-011.jpg",
+    "category": "line",
+    "sensitive": false,
+    "type": "image",
+    "sha256": "383a8e1a80ccf76b60b3eaa580df78f87bbb7271836169eec6111852cf5dc71c"
+  },
+  {
+    "source": "制作物一覧/公式line用/表示/リッチメニュー_0730.jpg",
+    "asset": "assets/works/line-012.jpg",
+    "category": "line",
+    "sensitive": false,
+    "type": "image",
+    "sha256": "2977cbb95b248cbd56bf121a024b2796533c0075837a05bff2b830a8f4745446"
+  }
+]
