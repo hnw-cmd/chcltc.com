@@ -1,0 +1,3 @@
+制作物の画像はこのフォルダへ追加してください。
+例：banner-01.jpg / article-lp-01.webp
+その後 data/content.js の image を assets/banner-01.jpg のように編集します。
