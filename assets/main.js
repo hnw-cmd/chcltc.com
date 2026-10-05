@@ -8,9 +8,11 @@ function externalUrl(v){try{const u=new URL(v);return /^https?:$/.test(u.protoco
 const revealedImages=new Set();
 let mediaIndex=0;
 function media(src,alt,sensitive,mode='card',caption=''){
- const key='media-'+(++mediaIndex),url=src&&safeUrl(src);
+ const preview=mode!=='detail'&&/^assets\/(?:works\/[^/]+|shipping-orders)\.[a-z0-9]+$/i.test(src||'');
+ const displaySrc=preview?'assets/thumbs/'+src.split('/').pop().replace(/\.[^.]+$/,'.webp'):src;
+ const key='media-'+(++mediaIndex),url=displaySrc&&safeUrl(displaySrc);
  const video=url&&/\.mp4(?:[?#]|$)/i.test(url);
- const inner=url?(video?`<video src="${esc(url)}" controls playsinline preload="metadata" aria-label="${esc(alt)}"></video>`:`<img src="${esc(url)}" alt="${sensitive?'確認後に表示される制作物':esc(alt)}" data-original-alt="${esc(alt)}" loading="lazy">`):`<div class="media-placeholder"><span>IMAGE</span><p>${esc(alt)}</p><small>画像を追加予定</small></div>`;
+ const inner=url?(video?`<video src="${esc(url)}" controls playsinline preload="metadata" aria-label="${esc(alt)}"></video>`:`<img src="${esc(url)}" alt="${sensitive?'確認後に表示される制作物':esc(alt)}" data-original-alt="${esc(alt)}" loading="lazy" decoding="async">`):`<div class="media-placeholder"><span>IMAGE</span><p>${esc(alt)}</p><small>画像を追加予定</small></div>`;
  return `<figure class="media media-${esc(mode)} ${sensitive?'is-sensitive':''}" data-media="${key}"><div class="media-frame ${sensitive?'is-concealed':''}"><div class="media-image" ${sensitive?'aria-hidden="true" inert':''}>${inner}</div>${sensitive?`<div class="media-cover"><span>アダルト要素を含みます</span><button type="button" data-reveal="${key}">確認して表示</button></div>`:''}</div>${sensitive?`<button type="button" class="conceal-button" data-conceal="${key}" hidden>画像をぼかす</button>`:''}${caption?`<figcaption>${esc(caption)}</figcaption>`:''}</figure>`;
 }
 function card(w){return `<article class="work-card">${media(w.image,w.title,!!w.sensitive)}<div class="work-meta"><span>${esc(categories[w.category]||'その他')}</span><span>${w.draft?'内容を準備中':esc(w.year)}</span></div><h3><a href="work.html?id=${encodeURIComponent(w.id)}">${esc(w.title)}</a></h3><p>${esc(w.summary)}</p><a class="work-detail-link" href="work.html?id=${encodeURIComponent(w.id)}">詳しく見る</a></article>`}
@@ -88,10 +90,18 @@ if(content){
 (function setupMediaConsent(){
  const dialog=$('#content-dialog');if(!dialog)return;
  let pending=null,trigger=null;
+ const imageConfirm=dialog.querySelector('[value="confirm"]');
+ const externalConfirm=document.createElement('a');
+ externalConfirm.className='button';externalConfirm.target='_blank';externalConfirm.rel='noopener noreferrer';
+ externalConfirm.textContent='サイトを開く（別タブ）';externalConfirm.hidden=true;
+ imageConfirm.after(externalConfirm);
+ externalConfirm.addEventListener('click',()=>{dialog.close('external-opened');});
  function request(action,button){
   pending=action;trigger=button;
   $('#content-dialog-message').textContent=action.type==='external'?(action.explicit?'移動先には過激なアダルト表現が含まれます。内容を確認してサイトを開きますか？':'移動先のサイトにはアダルト要素が含まれます。サイトを開きますか？'):'この画像には性的な表現が含まれる場合があります。表示するのは選んだ画像だけです。';
-  dialog.querySelector('[value="confirm"]').textContent=action.type==='external'?'サイトを開く':'この画像を表示する';
+  imageConfirm.textContent='この画像を表示する';
+  imageConfirm.hidden=action.type==='external';externalConfirm.hidden=action.type!=='external';
+  if(action.type==='external')externalConfirm.href=externalUrl(action.url);else externalConfirm.removeAttribute('href');
   if(typeof dialog.showModal==='function'){dialog.returnValue='';dialog.showModal()}else{if(window.confirm($('#content-dialog-message').textContent))complete();pending=null;}
  }
  function complete(){
@@ -113,7 +123,7 @@ if(content){
    const video=f.querySelector('video');if(video)video.pause();const img=f.querySelector('img');if(img)img.alt='確認後に表示される制作物';f.querySelector('.media-cover').hidden=false;conceal.hidden=true;f.querySelector('[data-reveal]').focus();
   }
  });
- dialog.addEventListener('close',()=>{const confirmed=dialog.returnValue==='confirm';if(confirmed)complete();if(!confirmed||pending?.type==='external')trigger?.focus();pending=null;});
+ dialog.addEventListener('close',()=>{const confirmed=dialog.returnValue==='confirm';if(confirmed&&pending?.type==='image')complete();if(!confirmed||pending?.type==='external')trigger?.focus();pending=null;});
 })();
 
 // Select page-level navigation independently from scroll animations.
