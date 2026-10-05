@@ -1,7 +1,7 @@
 // Cloudflare Pages advanced-mode Worker. This file runs on the server only.
 const PASSWORD = '1003';
 const SIGNING_SECRET = 'c3a14b317b0007a8ea2d48f976616310ba2a5d67582ae24d1bd195e661bf665f';
-const COOKIE = '__Host-portfolio_assets';
+const COOKIE = '__Host-portfolio_visit';
 const TTL = 60 * 60 * 12;
 const enc = new TextEncoder();
 const hex = bytes => Array.from(new Uint8Array(bytes), n => n.toString(16).padStart(2, '0')).join('');
@@ -37,7 +37,7 @@ async function authenticated(request, env, origin) {
 function loginPage(target, error = '') {
   return `<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>パスワード入力 | Portfolio</title><style>
 *{box-sizing:border-box}body{margin:0;background:#f5f7fa;color:#182b47;font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue","Noto Sans JP",sans-serif;min-height:100svh;display:grid;place-items:center;padding:24px}.card{width:100%;max-width:460px;background:#fff;padding:48px;border:1px solid #e2e7ee;border-radius:16px;box-shadow:0 16px 60px #16305308}.eyebrow{font-size:11px;letter-spacing:.18em;color:#60768d;font-weight:700;margin:0 0 32px}.mark{display:grid;place-items:center;width:42px;height:42px;background:#182f55;color:#fff;border-radius:8px;font-weight:700;margin-bottom:24px}h1{font-size:26px;font-weight:600;letter-spacing:.01em;margin:0 0 16px}p{font-size:14px;line-height:1.9;color:#637084;margin:0 0 28px}label{display:block;font-size:13px;font-weight:600;margin:0 0 10px}input,button{font:inherit;width:100%;border-radius:7px;padding:14px 16px}input{background:#fff;border:1px solid #b7c3d2;color:#182b47;font-size:16px}input:focus{outline:3px solid #d7e6f8;border-color:#3b699f}button{margin-top:16px;border:0;background:#182f55;color:#fff;cursor:pointer;font-size:14px;font-weight:600}button:hover{background:#284c7a}button:focus-visible{outline:3px solid #92b9e7;outline-offset:3px}.error{color:#ae3434;font-size:13px;margin:12px 0 0}.note{font-size:11px;margin:24px 0 0;color:#7a8798}@media(max-width:480px){.card{padding:32px 24px}h1{font-size:20px}}
-</style></head><body><main class="card"><p class="eyebrow">EC & CREATIVE PORTFOLIO</p><div class="mark" aria-hidden="true">E</div><h1>ポートフォリオの閲覧</h1><p>ご覧いただくには、パスワードをご入力ください。</p><form action="${escapeHtml(target)}" method="post"><label for="password">パスワード</label><input id="password" name="password" type="password" autocomplete="off" maxlength="128" required ${error ? 'aria-invalid="true" aria-describedby="error"' : ''}>${error ? `<p class="error" id="error" role="alert">${escapeHtml(error)}</p>` : ''}<button type="submit">ポートフォリオを見る</button></form><p class="note">ページを開くたびに、パスワードの入力が必要です。</p></main></body></html>`;
+</style></head><body><main class="card"><p class="eyebrow">EC & CREATIVE PORTFOLIO</p><div class="mark" aria-hidden="true">E</div><h1>ポートフォリオの閲覧</h1><p>ご覧いただくには、パスワードをご入力ください。</p><form action="${escapeHtml(target)}" method="post"><label for="password">パスワード</label><input id="password" name="password" type="password" autocomplete="off" maxlength="128" required ${error ? 'aria-invalid="true" aria-describedby="error"' : ''}>${error ? `<p class="error" id="error" role="alert">${escapeHtml(error)}</p>` : ''}<button type="submit">ポートフォリオを見る</button></form></main></body></html>`;
 }
 // Pages may canonicalize /works.html to /works. Resolve only same-origin redirects internally.
 async function assetResponse(request, env) {
@@ -74,15 +74,14 @@ export default {
         if (mismatch) return reply(loginPage(target, 'パスワードが違います。もう一度入力してください。'), 401, {'Content-Type':'text/html; charset=utf-8'});
         const payload = (Math.floor(Date.now()/1000) + TTL) + '.' + hex(crypto.getRandomValues(new Uint8Array(16)));
         const signature = hex(await crypto.subtle.sign('HMAC', await key(env, url.origin), enc.encode(payload)));
-        // Serve this one navigation after checking the submitted password.
-        // The cookie permits subresources only; it never unlocks another page visit.
+        // Start a visit after checking the password. Direct and external entries still require it.
         const response = await assetResponse(new Request(new URL(target, url.origin), {method:'GET'}), env);
         const output = new Response(response.body, response);
         for (const [name,value] of Object.entries(headers)) output.headers.set(name,value);
         output.headers.set('Set-Cookie',`${COOKIE}=${payload}.${signature}; Path=/; HttpOnly; Secure; SameSite=Lax`);
         if ((output.headers.get('Content-Type') || '').includes('text/html')) {
           const html = await output.text();
-          // Replace the POST history entry, so reload sends GET and requests the password again.
+          // Replace the POST history entry to prevent form resubmission on reload.
           const reset = '<script>history.replaceState(null,"",location.href);addEventListener("pageshow",function(e){if(e.persisted)location.reload()});</script>';
           output.headers.delete('Content-Length');output.headers.delete('ETag');output.headers.delete('Content-Encoding');
           return new Response(html.replace('</head>',reset+'</head>'), {status:output.status, headers:output.headers});
@@ -92,7 +91,14 @@ export default {
       const extension = url.pathname.split('/').pop().split('.').pop().toLowerCase();
       const isPage = !url.pathname.split('/').pop().includes('.') || ['html','htm'].includes(extension);
       const isNavigation = request.headers.get('Sec-Fetch-Mode') === 'navigate' || request.headers.get('Sec-Fetch-Dest') === 'document' || (request.headers.get('Accept') || '').includes('text/html');
-      if (isPage || isNavigation || !(await authenticated(request, env, url.origin))) {
+      let internalNavigation = false;
+      try {
+        const referrer = request.headers.get('Referer');
+        const site = request.headers.get('Sec-Fetch-Site');
+        internalNavigation = !!referrer && new URL(referrer).origin === url.origin && (!site || site === 'same-origin');
+      } catch { /* Missing or malformed referrer means a new visit. */ }
+      const newEntry = (isPage || isNavigation) && !internalNavigation;
+      if (newEntry || !(await authenticated(request, env, url.origin))) {
         if (!['GET','HEAD'].includes(request.method)) return reply('Forbidden', 403);
         return reply(request.method === 'HEAD' ? null : loginPage(targetPath(url.pathname + url.search, url.origin)), 401, {
           'Content-Type':'text/html; charset=utf-8',
